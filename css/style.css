@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+/* font-family: 'Francois One', sans-serif; */
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Francois One', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+	background-color: #116123;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a,
+input,
+button,
+textarea {
+	outline: none !important;
+}
+
+a {
+	text-decoration: none;
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+
+.container-fluid,
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row>* {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+p {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	padding: 0;
+	margin: 0;
+}
+p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p a:hover {
+	text-decoration: none;
+	color: rgba(255, 208, 44, 0.7);
+}
+
+a {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgba(51, 90, 245, 0.7);
+}
+
+ul, ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul li,
+ol li {
+	list-style: none;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+}
+
+ul li a,
+ol li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul li a:hover,
+ol li a:hover {
+	text-decoration: none;
+	color: rgba(255, 208, 44, 0.7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+}
+
+/* buttons */
+
+
+/* buttons */
+
+
+/*==================================================================*/
+/*========== Header Start ==========*/
+/*==================================================================*/
+
+.navbar {
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+}
+
+.header-text {
+	position: relative;
+	width: 100%;
+	margin-top: 6px;
+}
+
+.header-text:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	left: 316px;
+	right: 0;
+	bottom: 8px;
+	background-color: #FFFFFF;
+}
+
+.header-text p {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+/*==================================================================*/
+/*========== Header End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== New Class Add Start ==========*/
+/*==================================================================*/
+
+.content {
+	height: 100%;
+}
+
+.main-conetent-section-start {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.main-conetent-section-start .bg-img {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+	top: 0;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+	z-index: -1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.main-conetent-section-start .bg-img img {
+	max-height: 100%;
+	height: auto;
+}
+
+.main-content-section {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.frog-left {
+	position: relative;
+}
+
+.frog-img {
+	margin-top: 160px;
+}
+
+.frog-img img {
+	background-color: #116123;
+    border: 5px solid #116123;
+    padding: 74px 62px;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.frog-text {
+	text-align: right;
+	z-index: 99;
+}
+
+.frog-left .frog-eclipse {
+	position: absolute;
+	/* top: 131px;
+	left: 375px; */
+	top: -59px;
+    left: 360px;
+	width: 54px;
+	height: 54px;
+	background-color: #116123;
+	border: 5px solid #0ebb42;
+	border-radius: 0%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.frog-left .frog-btn {
+	position: absolute;
+	/* top: 80px;
+	left: 448px; */
+	top: -90px;
+    left: 430px;
+}
+
+.frog-left .frog-btn a {
+	display: inline-block;
+	padding: 60px 35px;
+	background-color: #116123;
+	border: 5px solid #0ebb42;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.frog-text p a {
+	color: #FFD02C;
+}
+
+.frog-text p a:hover {
+	color: rgba(255, 208, 44, 0.7);
+}
+
+/*==================================================================*/
+/*========== New Class Add End ==========*/
+/*==================================================================*/
+
+
+/*==================================================================*/
+/*========== Footer Start ==========*/
+/*==================================================================*/
+
+.footer {
+	border-top: 2px solid #FFFFFF;
+}
+
+.footer-start {
+	padding: 20px 0;
+}
+
+.footer-start .row {
+	align-items: center;
+}
+
+.footer-left p {
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.footer-left p span {
+	text-decoration: underline;
+}
+
+.footer-right ul {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	margin-right: -33px;
+}
+
+.footer-right ul li {
+	margin-right: 17px;
+}
+
+.footer-right ul li:last-child {
+	margin-right: 0;
+}
+
+.footer-right ul li:hover {
+	opacity: 0.7;
+}
+
+/*==================================================================*/
+/*========== Footer End ==========*/
+/*==================================================================*/
